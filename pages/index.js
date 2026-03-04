@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
     <>
-    <div>hello world
+    <div>hello world Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad exercitationem doloremque velit, non repudiandae id quam nulla iusto, voluptatum suscipit possimus. Temporibus repudiandae iusto aliquid amet quos vel repellat commodi! Voluptatibus, odio numquam laborum veritatis accusantium id ipsa eum voluptatum suscipit, accusamus eos excepturi qui quisquam autem error vitae est?
     </div>
     </>
   );
