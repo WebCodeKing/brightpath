@@ -18,7 +18,7 @@ const Navbar = () => {
             <a className="text-3xl font-bold font-heading" href="#">
               {/* Logo Here */}
               <Image
-                src="/home/brightpath-logo.png"
+                src="/images/home/brightpath-logo.png"
                 alt="Logo Image"
                 width={100}
                 height={50}
