@@ -17,14 +17,14 @@ const Navbar = () => {
           <div className="px-5 xl:px-12 py-3 flex w-full items-center">
             <a className="text-3xl font-bold font-heading" href="#">
               {/* Logo Here */}
-              {/* <Image
-                src="/favicon.png"
-                alt="Madina Image"
-                width={50}
-                height={10}
+              <Image
+                src="/home/brightpath-logo.png"
+                alt="Logo Image"
+                width={100}
+                height={50}
                 className=""
                 priority
-              /> */}
+              />
             </a>
             {/* Nav Links */}
             <ul className="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12 justify-self-center">
