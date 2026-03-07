@@ -45,7 +45,7 @@ export default function Home() {
           </div> */}
         <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-black to-transparent"></div>
       </div>
-      <div className="flex justify-center bg-[#1c2532] md:px-20 my-32 md:max-w-[85%] rounded-3xl opacity-80">
+      <div className="flex justify-center bg-gradient-to-br from-[#181818] to-[#5c5c5c] md:px-20 my-32 max-w-[95%] md:max-w-[85%] rounded-3xl opacity-80 overflow-hidden white">
         <section className=" text-white dark:bg-gray-900 bg-gray bg-opacity-0">
           <div className="grid justify-items-center max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
             <div className="mr-auto place-self-center lg:col-span-7">
