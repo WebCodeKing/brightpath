@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
+import { ShieldCheck, UserCheck, FileText, Globe, GraduationCap } from "lucide-react";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -72,7 +74,7 @@ export default function Home() {
           <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
             <div className="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1">
               <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
-                <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex bg-gradient-to-br from-[#0a77bf] to-[#fd6d2b] bg-clip-text text-transparent">
+                <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex bg-gradient-to-r from-[#0a77bf] to-[#fd6d2b] bg-clip-text text-transparent">
                   <h2 className="text-4xl font-bold font-manrope leading-normal lg:text-start text-center">Who We Are</h2>
                   <div className="space-y-4 text-base font-normal leading-relaxed lg:text-start text-center text-white">
 
@@ -104,6 +106,79 @@ export default function Home() {
               </div>
               <img className="lg:mx-0 mx-auto h-full rounded-3xl object-cover" src="/homepage/hero-section.jpg" alt="about Us image" />
             </div>
+          </div>
+        </section>
+        <section className="py-20">
+          <div className="max-w-7xl mx-auto px-6">
+
+            {/* Section Title */}
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-[#0a77bf] to-[#fd6d2b] bg-clip-text text-transparent">
+                Why Choose BrightPath
+              </h2>
+              <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
+                We are committed to helping students achieve their dream of studying abroad through professional guidance and reliable support.
+              </p>
+            </div>
+
+            {/* Cards */}
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+              {/* Card 1 */}
+              <div className="flex flex-col items-center p-6 rounded-xl border border-gray-700 hover:border-[#fd6d2b] transition duration-300">
+                <ShieldCheck className="text-white mb-4" size={40} />
+                <h3 className="text-xl font-semibold mb-3 text-gray-300">Registered & Trusted Consultancy</h3>
+                <p className="text-gray-400 text-sm text-center">
+                  BrightPath is a properly registered consultancy committed to providing honest and reliable guidance to students.
+                </p>
+              </div>
+
+              {/* Card 2 */}
+              <div className="flex flex-col items-center p-6 rounded-xl border border-gray-700 hover:border-[#fd6d2b] transition duration-300">
+                <UserCheck className="text-white mb-4" size={40} />
+                <h3 className="text-xl font-semibold mb-3 text-gray-300">Personalized Student Guidance</h3>
+                <p className="text-gray-400 text-sm text-center">
+                  We provide one-to-one counseling tailored to each student's academic background and career goals.
+                </p>
+              </div>
+
+              {/* Card 3 */}
+              <div className="flex flex-col items-center p-6 rounded-xl border border-gray-700 hover:border-[#fd6d2b] transition duration-300">
+                <FileText className="text-white mb-4" size={40} />
+                <h3 className="text-xl font-semibold mb-3 text-gray-300">Transparent Process</h3>
+                <p className="text-gray-400 text-sm text-center">
+                  Our process is simple and transparent, ensuring students understand every step of their study abroad journey.
+                </p>
+              </div>
+
+              {/* Card 4 */}
+              <div className="flex flex-col items-center p-6 rounded-xl border border-gray-700 hover:border-[#fd6d2b] transition duration-300">
+                <Globe className="text-white mb-4" size={40} />
+                <h3 className="text-xl font-semibold mb-3 text-gray-300">Professional Visa Guidance</h3>
+                <p className="text-gray-400 text-sm text-center">
+                  Our consultants guide students through the visa process with proper documentation and preparation.
+                </p>
+              </div>
+
+              {/* Card 5 */}
+              <div className="flex flex-col items-center p-6 rounded-xl border border-gray-700 hover:border-[#fd6d2b] transition duration-300">
+                <GraduationCap className="text-white mb-4" size={40} />
+                <h3 className="text-xl font-semibold mb-3 text-gray-300">Student-Focused Approach</h3>
+                <p className="text-gray-400 text-sm text-center">
+                  We prioritize the success of our students and provide continuous support throughout their study abroad journey.
+                </p>
+              </div>
+              {/* Card 6 */}
+              <div className="flex flex-col items-center p-6 rounded-xl border border-gray-700 hover:border-[#fd6d2b] transition duration-300">
+                <GraduationCap className="text-white mb-4" size={40} />
+                <h3 className="text-xl font-semibold mb-3 text-gray-300">Continuous Student Support</h3>
+                <p className="text-gray-400 text-sm text-center">
+                  Our support does not end after admission. BrightPath continues to guide and assist students throughout their study abroad journey whenever they need help.
+                </p>
+              </div>
+
+            </div>
+
           </div>
         </section>
       </div>
