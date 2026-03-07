@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
-// import Footer from "@/components/Footer";
+import Footer from "@/components/Footer";
 
 export default function App({ Component, pageProps }) {
   return <>
@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }) {
   </Head>
   <Navbar/>
   <Component {...pageProps} />
-  {/* <Footer/> */}
+  <Footer/>
   {/* </div>
   </div> */}
   </div>
