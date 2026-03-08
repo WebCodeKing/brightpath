@@ -29,22 +29,32 @@ const Navbar = () => {
             {/* Nav Links */}
             <ul className="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12 justify-self-center">
               <Link legacyBehavior href="/"><a><li className="hover:text-gray-200">Home</li></a></Link>
-              <Link legacyBehavior href="/about"><a className="hover:text-gray-200"><li>About</li></a></Link>
+              {/* <Link legacyBehavior href="/about"><a className="hover:text-gray-200"><li>About</li></a></Link> */}
               <Link legacyBehavior href="/company-profile"><a className="hover:text-gray-200"><li>Company Profile</li></a></Link>
               {/* <Link legacyBehavior href="/affiliate-companies"><a><li className="hover:text-gray-200">Affiliate Companies */}
               {/* </li></a></Link>
               <Link legacyBehavior href="/hajj-guides"><a><li className="hover:text-gray-200">Hajj Guides
               </li></a></Link> */}
-              {/* <li className="relative group">
+              <li className="relative group">
                 <div className="inline-block">
-                  <a href="#" className="hover:text-gray-300">SECP</a>
+                  <a href="#" className="hover:text-gray-300">Study Destinations</a>
                   <ul className="absolute left-0 mt-1 w-40 bg-black text-white rounded shadow-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
-                    <Link legacyBehavior href="/secp/hajj2024"><li className="px-4 py-2 rounded hover:bg-gray-700"><a href="#">Hajj 2024</a></li></Link>
-                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Hajj 2025</a></li></Link> */}
+                    <Link legacyBehavior href="/study-destinations/albania"><li className="px-4 py-2 rounded hover:bg-gray-700"><a href="#">Albania</a></li></Link>
+                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Bosnia</a></li></Link> 
+                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Croatia</a></li></Link> 
+                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Cyprus</a></li></Link> 
+                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Czech Republic</a></li></Link> 
+                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Georgia</a></li></Link> 
+                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Hungary</a></li></Link> 
+                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Latvia</a></li></Link> 
+                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Lithuania</a></li></Link> 
+                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Slovakia</a></li></Link> 
+                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Slovenia</a></li></Link> 
+                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Turkey</a></li></Link> 
                     {/* <li className="px-4 py-2 hover:bg-gray-700"><a href="#">Marketing</a></li> */}
-                  {/* </ul>
+                  </ul>
                 </div>
-              </li> */}
+              </li>
 
               <Link legacyBehavior href="/faq"><a><li className="hover:text-gray-200">FAQ</li></a></Link>
               <Link legacyBehavior href="/contact"><a onClick={() => console.log("Navigating to Contact")}><li className="hover:text-gray-200">Contact</li></a></Link>

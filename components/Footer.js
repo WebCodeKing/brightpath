@@ -23,14 +23,17 @@ const Footer = () => {
         <h2 className="title-font font-bold text-white tracking-widest mb-3">Contact Us</h2>
         <nav className="list-none mb-10">
           <li>
-            <a className="text-gray-400 hover:text-white"><span className='font-bold'>Address:</span> Office No.4, 1st Floor, AL-Rayan Plaza
-            Police Foundation, Islamabad</a>
+            <a className="text-gray-400 hover:text-white"><span className='font-bold'>Address: </span>
+            Office No. 3, City Center Opposite Frichiks Mateela Road Kotmomin
+            </a>
           </li>
           <li>
-            <a className="text-gray-400 hover:text-white"><span className='font-bold'>Phone:</span> 051-8773076</a>
+            <a className="text-gray-400 hover:text-white"><span className='font-bold'>Phone:</span> +92 347 4464445</a>
           </li>
           <li>
-            <a className="text-gray-400 hover:text-white"><span className='font-bold'>Email:</span> almashood2024@gmail.com</a>
+            <a className="text-gray-400 hover:text-white"><span className='font-bold'>Email: </span>
+            brightpathinternationalstudy@gmail.com
+            </a>
           </li>
           <li className='hidden'>
             <a className="text-gray-400 hover:text-white">Fourth Link</a>

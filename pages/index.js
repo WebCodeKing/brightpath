@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
-import { ShieldCheck, UserCheck, FileText, Globe, GraduationCap } from "lucide-react";
+import { ShieldCheck, UserCheck, FileText, Globe, GraduationCap, LifeBuoy } from "lucide-react";
 
 
 const geistSans = Geist({
@@ -108,7 +108,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="py-20">
+        <section className="shadow-[inset_0_0_800px_rgba(255,255,255,0.3)] p-20 max-w-[95%] md:max-w-[85%] mx-auto rounded-4xl my-32">
           <div className="max-w-7xl mx-auto px-6">
 
             {/* Section Title */}
@@ -125,26 +125,26 @@ export default function Home() {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
 
               {/* Card 1 */}
-              <div className="flex flex-col items-center p-6 rounded-xl border border-gray-700 hover:border-[#fd6d2b] transition duration-300">
-                <ShieldCheck className="text-white mb-4" size={40} />
-                <h3 className="text-xl font-semibold mb-3 text-gray-300">Registered & Trusted Consultancy</h3>
+              <div className="transition duration-300 hover:[box-shadow:inset_0_0_50px_rgba(255,255,255,0.3)] flex flex-col items-center p-6 rounded-xl text-[#0a77bf] hover:text-[#fd6d2b] border border-gray-700 hover:border-[#fd6d2b] transition duration-300">
+                <ShieldCheck className="mb-4" size={40} />
+                <h3 className="text-xl font-semibold mb-3 text-gray-300 text-center">Registered & Trusted Consultancy</h3>
                 <p className="text-gray-400 text-sm text-center">
                   BrightPath is a properly registered consultancy committed to providing honest and reliable guidance to students.
                 </p>
               </div>
 
               {/* Card 2 */}
-              <div className="flex flex-col items-center p-6 rounded-xl border border-gray-700 hover:border-[#fd6d2b] transition duration-300">
-                <UserCheck className="text-white mb-4" size={40} />
-                <h3 className="text-xl font-semibold mb-3 text-gray-300">Personalized Student Guidance</h3>
+              <div className="transition duration-300 hover:[box-shadow:inset_0_0_50px_rgba(255,255,255,0.3)] flex flex-col items-center p-6 rounded-xl text-[#0a77bf] hover:text-[#fd6d2b] border border-gray-700 hover:border-[#fd6d2b] transition duration-300">
+                <UserCheck className="mb-4" size={40} />
+                <h3 className="text-xl font-semibold mb-3 text-gray-300 text-center">Personalized Student Guidance</h3>
                 <p className="text-gray-400 text-sm text-center">
                   We provide one-to-one counseling tailored to each student's academic background and career goals.
                 </p>
               </div>
 
               {/* Card 3 */}
-              <div className="flex flex-col items-center p-6 rounded-xl border border-gray-700 hover:border-[#fd6d2b] transition duration-300">
-                <FileText className="text-white mb-4" size={40} />
+              <div className="transition duration-300 hover:[box-shadow:inset_0_0_50px_rgba(255,255,255,0.3)] flex flex-col items-center p-6 rounded-xl text-[#0a77bf] hover:text-[#fd6d2b] border border-gray-700 hover:border-[#fd6d2b] transition duration-300">
+                <FileText className="mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3 text-gray-300">Transparent Process</h3>
                 <p className="text-gray-400 text-sm text-center">
                   Our process is simple and transparent, ensuring students understand every step of their study abroad journey.
@@ -152,8 +152,8 @@ export default function Home() {
               </div>
 
               {/* Card 4 */}
-              <div className="flex flex-col items-center p-6 rounded-xl border border-gray-700 hover:border-[#fd6d2b] transition duration-300">
-                <Globe className="text-white mb-4" size={40} />
+              <div className="transition duration-300 hover:[box-shadow:inset_0_0_50px_rgba(255,255,255,0.3)] flex flex-col items-center p-6 rounded-xl text-[#0a77bf] hover:text-[#fd6d2b] border border-gray-700 hover:border-[#fd6d2b] transition duration-300">
+                <Globe className="mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3 text-gray-300">Professional Visa Guidance</h3>
                 <p className="text-gray-400 text-sm text-center">
                   Our consultants guide students through the visa process with proper documentation and preparation.
@@ -161,16 +161,16 @@ export default function Home() {
               </div>
 
               {/* Card 5 */}
-              <div className="flex flex-col items-center p-6 rounded-xl border border-gray-700 hover:border-[#fd6d2b] transition duration-300">
-                <GraduationCap className="text-white mb-4" size={40} />
+              <div className="transition duration-300 hover:[box-shadow:inset_0_0_50px_rgba(255,255,255,0.3)] flex flex-col items-center p-6 rounded-xl text-[#0a77bf] hover:text-[#fd6d2b] border border-gray-700 hover:border-[#fd6d2b] transition duration-300">
+                <GraduationCap className="mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3 text-gray-300">Student-Focused Approach</h3>
                 <p className="text-gray-400 text-sm text-center">
                   We prioritize the success of our students and provide continuous support throughout their study abroad journey.
                 </p>
               </div>
               {/* Card 6 */}
-              <div className="flex flex-col items-center p-6 rounded-xl border border-gray-700 hover:border-[#fd6d2b] transition duration-300">
-                <GraduationCap className="text-white mb-4" size={40} />
+              <div className="transition duration-300 hover:[box-shadow:inset_0_0_50px_rgba(255,255,255,0.3)] flex flex-col items-center p-6 rounded-xl text-[#0a77bf] hover:text-[#fd6d2b] border border-gray-700 hover:border-[#fd6d2b] transition duration-300">
+                <LifeBuoy className="mb-4" size={40} />
                 <h3 className="text-xl font-semibold mb-3 text-gray-300">Continuous Student Support</h3>
                 <p className="text-gray-400 text-sm text-center">
                   Our support does not end after admission. BrightPath continues to guide and assist students throughout their study abroad journey whenever they need help.
