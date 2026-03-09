@@ -83,7 +83,7 @@ export default function Hungary() {
           <h2 className="text-3xl font-bold text-center mb-12 text-white">Key Statistics</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
-              <div key={index} className="glass p-6 rounded-lg text-center hover-lift animate-slideInLeft">
+              <div key={index} className="glass p-6 rounded-lg text-center hover-lift animate-slideInLeft flex flex-col items-center justify-center">
                 <div className="text-4xl text-blue-400 mb-4">{stat.icon}</div>
                 <div className="text-3xl font-bold text-white mb-2">{stat.value}</div>
                 <div className="text-gray-300">{stat.label}</div>

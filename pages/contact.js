@@ -123,7 +123,7 @@ const Contact = () => {
          <div class="w-full px-4 lg:w-1/2 xl:w-5/12">
          <div className='w-[100%] h-[100%]' >
       <iframe className='rounded-xl'
-        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d56183.36725529034!2d73.03040647457476!3d33.66274236454744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sOffice%20No.4%2C%201st%20Floor%2C%20AL-Rayan%20Plaza%20Police%20Foundation%2C%20Islamabad!5e0!3m2!1sen!2s!4v1740655528810!5m2!1sen!2s"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3376.766853794427!2d73.0357911!3d32.1835612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392193e301eb956f%3A0xa979392b2035fab2!2sCity%20Center%2C%20Kot%20Momin!5e0!3m2!1sen!2s!4v1773083167944!5m2!1sen!2s"
         width="100%"
         height="100%"
         style={{ border: "0" }}

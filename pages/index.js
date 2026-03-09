@@ -24,7 +24,7 @@ export default function Home() {
             muted
             loop
             playsInline
-            className="absolute w-full h-full object-cover opacity-50"
+            className="absolute w-full h-full object-cover opacity-90"
           >
             <source
               src="/videos/home/hero-section.mp4"
@@ -104,7 +104,7 @@ export default function Home() {
                         <span className="px-1.5 text-white text-sm font-medium leading-6">Get Started</span>
                     </button> */}
               </div>
-              <img className="lg:mx-0 mx-auto h-full rounded-3xl object-cover" src="/homepage/hero-section.jpg" alt="about Us image" />
+              <img className="lg:mx-0 mx-auto h-full rounded-3xl object-cover" src="/images/home/who-we-are.jpg" alt="about Us image" />
             </div>
           </div>
         </section>

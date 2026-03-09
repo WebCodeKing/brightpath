@@ -86,7 +86,7 @@ const Faq = () => {
     {/* <button onClick={() => window.location.reload()}>Reload Page</button> */}
 
     <div className='flex-col items-center justify-center justify-items-center'>
-     <div className='relative'>
+     {/* <div className='relative'>
       <Image
                   src="/FAQ/FAQ.webp"
                   width={1920}
@@ -96,7 +96,37 @@ const Faq = () => {
                   priority
                   />
                   <div className="absolute bottom-0 left-0 w-full h-28 bg-gradient-to-t from-white to-transparent"></div>
-                  </div>
+                  </div> */}
+                  <div className="relative h-screen w-full overflow-hidden">
+                  
+                            <video
+                              autoPlay
+                              muted
+                              loop
+                              playsInline
+                              className="absolute w-full h-full object-cover opacity-90"
+                            >
+                              <source
+                                src="/videos/faq/hero-section.mp4"
+                                type="video/mp4"
+                              />
+                            </video>
+                            <Image
+                              src="/images/home/brightpath-logo.png"
+                              width={1920}
+                              height={1080}
+                              className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[50vw] z-10 opacity-80"
+                              alt="Home Page Image"
+                              priority
+                            />
+                            {/* <div className="relative z-10 text-white text-center pt-40">
+                              <h1 className="text-5xl font-bold">Study Abroad With Us</h1>
+                              <p className="mt-4 text-xl">
+                                Apply to Top Universities Worldwide #0a77bf
+                              </p>
+                            </div> */}
+                            <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-black to-transparent"></div>
+                          </div>
                   {/* <div className='w-[100%] h-[10px] bg-black'></div> */}
     <div className='w-90% md:w-[75%] h-[100px] mt-[60px] md:mt-[150px] text-center'><strong className='text-gray-300 text-[40px] md:text-[70px]'>GENERAL QUESTIONS</strong></div>
 <div className='w-[90%] md:w-[75%] my-[80px] mx-auto' id="accordion-collapse" data-accordion="collapse">

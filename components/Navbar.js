@@ -103,24 +103,35 @@ const Navbar = () => {
         <div className={`absolute md:hidden w-[100%] transition-all duration-300 ${isMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-hidden z-50'}`}>
         <ul className="bg-gray-800 text-white space-y-4 px-5 py-4">
           <Link legacyBehavior href="/" onClick={() => setIsMenuOpen(false)}><a><li className=' hover:text-gray-400 font-bold'>Home</li></a></Link><hr />
-          <Link legacyBehavior href="/about" onClick={() => setIsMenuOpen(false)}><a><li className='pt-[16px] font-bold hover:text-gray-400'>About</li></a></Link><hr />
+          {/* <Link legacyBehavior href="/about" onClick={() => setIsMenuOpen(false)}><a><li className='pt-[16px] font-bold hover:text-gray-400'>About</li></a></Link><hr /> */}
           <Link legacyBehavior href="/company-profile" onClick={() => setIsMenuOpen(false)}><a><li className='pt-[16px] font-bold hover:text-gray-400'>Company Profile</li></a></Link><hr />
           {/* <Link legacyBehavior href="/affiliate-companies" onClick={() => setIsMenuOpen(false)}><a><li className='pt-[16px] font-bold hover:text-gray-400'>Affiliate Companies</li></a></Link><hr /> */}
           {/* <Link legacyBehavior href="/hajj-guides" onClick={() => setIsMenuOpen(false)}><a><li className='pt-[16px] font-bold hover:text-gray-400'>Hajj Guides</li></a></Link><hr /> */}
 
           {/* SECP Mobile Collapsible */}
-          {/* <li>
+          <li>
             <button onClick={() => setIsDropdownOpen(!isDropdownOpen)} className="w-full text-left flex justify-between items-center font-bold  hover:text-gray-400">
-              SECP
+              Study Destinations
               <span>{isDropdownOpen ? "▲" : "▼"}</span>
             </button>
             <ul className={`mt-2 ml-4 space-y-2 transition-all duration-300 ${isDropdownOpen ? 'block' : 'hidden'}`}>
-              <hr /><Link legacyBehavior href="/secp/hajj2024" onClick={() => setIsMenuOpen(false)}><a><li className='font-bold mt-[16px] hover:text-gray-400'>Hajj 2024</li></a></Link><hr />
-              <Link legacyBehavior href="/secp/hajj2025" onClick={() => setIsMenuOpen(false)}><a><li className='font-bold mt-[16px] hover:text-gray-400'>Hajj 2025</li></a></Link>
+              <hr /><Link legacyBehavior href="/study-destinations/albania" onClick={() => setIsMenuOpen(false)}><a><li className='font-bold mt-[16px] hover:text-gray-400'>Albania</li></a></Link><hr />
+              <Link legacyBehavior href="/study-destinations/bosnia" onClick={() => setIsMenuOpen(false)}><a><li className='font-bold mt-[16px] hover:text-gray-400'>Bosnia</li></a></Link><hr />
+              <Link legacyBehavior href="/study-destinations/croatia" onClick={() => setIsMenuOpen(false)}><a><li className='font-bold mt-[16px] hover:text-gray-400'>Croatia</li></a></Link><hr />
+              <Link legacyBehavior href="/study-destinations/cyprus" onClick={() => setIsMenuOpen(false)}><a><li className='font-bold mt-[16px] hover:text-gray-400'>Cyprus</li></a></Link><hr />
+              <Link legacyBehavior href="/study-destinations/czech-republic" onClick={() => setIsMenuOpen(false)}><a><li className='font-bold mt-[16px] hover:text-gray-400'>Czech Republic</li></a></Link><hr />
+              <Link legacyBehavior href="/study-destinations/france" onClick={() => setIsMenuOpen(false)}><a><li className='font-bold mt-[16px] hover:text-gray-400'>France</li></a></Link><hr />
+              <Link legacyBehavior href="/study-destinations/georgia" onClick={() => setIsMenuOpen(false)}><a><li className='font-bold mt-[16px] hover:text-gray-400'>Georgia</li></a></Link><hr />
+              <Link legacyBehavior href="/study-destinations/hungary" onClick={() => setIsMenuOpen(false)}><a><li className='font-bold mt-[16px] hover:text-gray-400'>Hungary</li></a></Link><hr />
+              <Link legacyBehavior href="/study-destinations/latvia" onClick={() => setIsMenuOpen(false)}><a><li className='font-bold mt-[16px] hover:text-gray-400'>Latvia</li></a></Link><hr />
+              <Link legacyBehavior href="/study-destinations/lithuania" onClick={() => setIsMenuOpen(false)}><a><li className='font-bold mt-[16px] hover:text-gray-400'>Lithuania</li></a></Link><hr />
+              <Link legacyBehavior href="/study-destinations/slovakia" onClick={() => setIsMenuOpen(false)}><a><li className='font-bold mt-[16px] hover:text-gray-400'>Slovakia</li></a></Link><hr />
+              <Link legacyBehavior href="/study-destinations/slovenia" onClick={() => setIsMenuOpen(false)}><a><li className='font-bold mt-[16px] hover:text-gray-400'>Slovenia</li></a></Link><hr />
+              <Link legacyBehavior href="/study-destinations/turkey" onClick={() => setIsMenuOpen(false)}><a><li className='font-bold mt-[16px] hover:text-gray-400'>Turkey</li></a></Link>
             </ul>
-          </li><hr /> */}
+          </li><hr />
 
-          <Link legacyBehavior href="/faq" onClick={() => setIsMenuOpen(false)}><a><li className='pt-[16px] font-bold hover:text-gray-400'>FAQ</li></a></Link><hr />
+          <Link legacyBehavior href="/faq" onClick={() => setIsMenuOpen(false)}><a><li className='pt-[16px] font-bold hover:text-gray-400'>FAQ</li></a></Link> <hr />
           <Link legacyBehavior href="/contact" onClick={() => setIsMenuOpen(false)}><a><li className='pt-[16px] font-bold hover:text-gray-400'>Contact</li></a></Link>
         </ul>
       </div>

@@ -22,10 +22,10 @@ const CompanyProfile = () => {
             muted
             loop
             playsInline
-            className="absolute w-full h-full object-cover opacity-50"
+            className="absolute w-full h-full object-cover opacity-100"
           >
             <source
-              src="/videos/home/hero-section.mp4"
+              src="/videos/company-profile/hero-section.mp4"
               type="video/mp4"
             />
           </video>
@@ -73,7 +73,7 @@ const CompanyProfile = () => {
             </div> */}
               </div>
               <div className="relative rounded-3xl overflow-hidden h-full">
-                <img src="/company-profile/hero-section.jpg" alt="app-img"
+                <img src="/images/company-profile/brightpath.jpg" alt="app-img"
                   className="w-full h-full object-cover object-top lg:absolute lg:right-0 lg:top-0 lg:bottom-0" />
               </div>
             </div>
