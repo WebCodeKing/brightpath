@@ -40,17 +40,18 @@ const Navbar = () => {
                   <a href="#" className="hover:text-gray-300">Study Destinations</a>
                   <ul className="absolute left-0 mt-1 w-40 bg-black text-white rounded shadow-md opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
                     <Link legacyBehavior href="/study-destinations/albania"><li className="px-4 py-2 rounded hover:bg-gray-700"><a href="#">Albania</a></li></Link>
-                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Bosnia</a></li></Link> 
-                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Croatia</a></li></Link> 
-                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Cyprus</a></li></Link> 
-                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Czech Republic</a></li></Link> 
-                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Georgia</a></li></Link> 
-                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Hungary</a></li></Link> 
-                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Latvia</a></li></Link> 
-                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Lithuania</a></li></Link> 
-                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Slovakia</a></li></Link> 
-                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Slovenia</a></li></Link> 
-                    <Link legacyBehavior href="/secp/hajj2025"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Turkey</a></li></Link> 
+                    <Link legacyBehavior href="/study-destinations/bosnia"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Bosnia</a></li></Link> 
+                    <Link legacyBehavior href="/study-destinations/croatia"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Croatia</a></li></Link> 
+                    <Link legacyBehavior href="/study-destinations/cyprus"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Cyprus</a></li></Link> 
+                    <Link legacyBehavior href="/study-destinations/czech-republic"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Czech Republic</a></li></Link> 
+                    <Link legacyBehavior href="/study-destinations/france"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>France</a></li></Link> 
+                    <Link legacyBehavior href="/study-destinations/georgia"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Georgia</a></li></Link> 
+                    <Link legacyBehavior href="/study-destinations/hungary"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Hungary</a></li></Link> 
+                    <Link legacyBehavior href="/study-destinations/latvia"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Latvia</a></li></Link> 
+                    <Link legacyBehavior href="/study-destinations/lithuania"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Lithuania</a></li></Link> 
+                    <Link legacyBehavior href="/study-destinations/slovakia"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Slovakia</a></li></Link> 
+                    <Link legacyBehavior href="/study-destinations/slovenia"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Slovenia</a></li></Link> 
+                    <Link legacyBehavior href="/study-destinations/turkey"><li className="px-4 py-2 rounded hover:bg-gray-700"><a>Turkey</a></li></Link> 
                     {/* <li className="px-4 py-2 hover:bg-gray-700"><a href="#">Marketing</a></li> */}
                   </ul>
                 </div>
