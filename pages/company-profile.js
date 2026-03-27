@@ -7,7 +7,9 @@ import {
   FileText,
   Building,
   Bus,
-  Users
+  Users,
+  Phone,
+  Mail
 } from "lucide-react";
 import Link from 'next/link';
 
@@ -177,6 +179,88 @@ const CompanyProfile = () => {
                 </ul>
               </div>
 
+            </div>
+          </div>
+        </section>
+        <section className="shadow-[inset_0_0_800px_rgba(255,255,255,0.3)] max-w-[95%] md:max-w-[85%] mx-auto p-10 md:p-14 rounded-4xl my-24">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-[#0a77bf] to-[#fd6d2b] bg-clip-text text-transparent">
+                Leadership Contacts
+              </h2>
+              <p className="text-gray-400 mt-4 max-w-2xl mx-auto">
+                Direct points of contact for admissions guidance, visa support, and student success.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="flex flex-col sm:flex-row gap-6 bg-[#0f0f0f] border border-gray-700 rounded-3xl p-6 hover:[box-shadow:inset_0_0_50px_rgba(255,255,255,0.15)] transition duration-300">
+                <div className="w-full sm:w-40 max-w-[220px] aspect-[4/5] sm:aspect-square mx-auto sm:mx-0 rounded-3xl bg-gradient-to-br from-[#0a77bf]/40 to-[#fd6d2b]/40 p-[2px] overflow-hidden shrink-0">
+                  <div className="w-full h-full rounded-[22px] overflow-hidden bg-black/20">
+                    <img
+                      src="/images/company-profile/ayaz.jpeg"
+                      alt="Ayaz Ahmad Saith"
+                      className="w-full h-full object-cover object-[center_20%] saturate-110 contrast-105"
+                    />
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-semibold text-white">Ayaz Ahmad Saith</h3>
+                  <p className="text-[#fd6d2b] font-medium">Managing Director</p>
+                  <div className="mt-4 space-y-2 text-gray-400 text-sm">
+                    <div className="flex items-start gap-2">
+                      <Phone size={16} className="text-[#0a77bf] mt-[2px]" />
+                      <div className="space-y-1">
+                        <p>
+                          <span className="text-gray-500">Phone 1:</span> +92 313 8668015
+                        </p>
+                        <p>
+                          <span className="text-gray-500">Phone 2:</span> +92 345 8668015
+                        </p>
+                      </div>
+                    </div>
+                    <p className="flex items-center gap-2">
+                      <Mail size={16} className="text-[#0a77bf]" />
+                      brightpathinternationalstudy@gmail.com
+                    </p>
+                  </div>
+                  <p className="mt-4 text-gray-300 text-sm font-bold">Office: Kotmomin</p>
+                </div>
+              </div>
+
+              <div className="flex flex-col sm:flex-row gap-6 bg-[#0f0f0f] border border-gray-700 rounded-3xl p-6 hover:[box-shadow:inset_0_0_50px_rgba(255,255,255,0.15)] transition duration-300">
+                <div className="w-full sm:w-40 max-w-[220px] aspect-[4/5] sm:aspect-square mx-auto sm:mx-0 rounded-3xl bg-gradient-to-br from-[#fd6d2b]/40 to-[#0a77bf]/40 p-[2px] overflow-hidden shrink-0">
+                  <div className="w-full h-full rounded-[22px] overflow-hidden bg-black/20">
+                    <img
+                      src="/images/company-profile/ulfat.jpeg"
+                      alt="Saad Raza"
+                      className="w-full h-full object-cover object-[center_20%] saturate-110 contrast-105"
+                    />
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-semibold text-white">Ulfat Iqbal</h3>
+                  <p className="text-[#fd6d2b] font-medium">Managing Director</p>
+                  <div className="mt-4 space-y-2 text-gray-400 text-sm">
+                    <div className="flex items-start gap-2">
+                      <Phone size={16} className="text-[#0a77bf] mt-[2px]" />
+                      <div className="space-y-1">
+                        <p>
+                          <span className="text-gray-500">Phone 1:</span> +92 304 6423365
+                        </p>
+                        <p>
+                          <span className="text-gray-500">Phone 2:</span> +385 91 603 6177
+                        </p>
+                      </div>
+                    </div>
+                    <p className="flex items-center gap-2">
+                      <Mail size={16} className="text-[#0a77bf]" />
+                      brightpathinternationalstudy@gmail.com
+                    </p>
+                  </div>
+                  <p className="mt-4 text-gray-300 text-sm font-bold">Office: Croatia</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>

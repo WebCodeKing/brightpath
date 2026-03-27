@@ -108,7 +108,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="shadow-[inset_0_0_800px_rgba(255,255,255,0.3)] p-20 max-w-[95%] md:max-w-[85%] mx-auto rounded-4xl my-32">
+        <section className="shadow-[inset_0_0_800px_rgba(255,255,255,0.3)] py-20 md:p-20 max-w-[95%] md:max-w-[85%] mx-auto rounded-4xl my-32">
           <div className="max-w-7xl mx-auto px-6">
 
             {/* Section Title */}
