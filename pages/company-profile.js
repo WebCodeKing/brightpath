@@ -239,7 +239,7 @@ const CompanyProfile = () => {
                   </div>
                 </div>
                 <div className="flex-1">
-                  <h3 className="text-xl font-semibold text-white">Ulfat Iqbal</h3>
+                  <h3 className="text-xl font-semibold text-white">Ulfat Iqbalz</h3>
                   <p className="text-[#fd6d2b] font-medium">Managing Director</p>
                   <div className="mt-4 space-y-2 text-gray-400 text-sm">
                     <div className="flex items-start gap-2">
