@@ -50,7 +50,7 @@ const CompanyProfile = () => {
         <div className="shadow-[inset_0_0_800px_rgba(255,255,255,0.3)] py-10 my-20 sm:px-10 max-w-[95%] md:max-w-[85%] rounded-4xl">
           <div className="max-w-screen-xl mx-auto">
             <div className="grid lg:grid-cols-2 justify-center items-center gap-x-12 gap-y-16">
-              <div className="max-w-3xl max-lg:mx-auto max-lg:text-center">
+              <div className="max-w-3xl max-lg:mx-auto max-lg:text-center px-4">
                 <h1 className="bg-gradient-to-r from-[#0a77bf] to-[#fd6d2b] bg-clip-text text-transparent md:text-5xl text-4xl font-bold !leading-tight">Brightpath International Study Consultant Pvt Ltd
                   {/* <span className="bg-gradient-to-r from-[#ce9733] to-[#8a641f] bg-clip-text text-transparent"></span> */}
 
@@ -74,9 +74,9 @@ const CompanyProfile = () => {
                 className="bg-transparent hover:bg-slate-100 border border-indigo-700 transition-all text-base text-slate-900 font-medium rounded-full px-6 py-3 cursor-pointer outline-0">See How It Works</button>
             </div> */}
               </div>
-              <div className="relative rounded-3xl overflow-hidden h-full">
+              <div className="relative rounded-3xl overflow-hidden h-full px-4 md-px-0">
                 <img src="/images/company-profile/brightpath.jpg" alt="app-img"
-                  className="w-full h-full object-cover object-top lg:absolute lg:right-0 lg:top-0 lg:bottom-0" />
+                  className="w-full h-full object-cover object-top lg:absolute lg:right-0 lg:top-0 lg:bottom-0 rounded-3xl" />
               </div>
             </div>
           </div>
@@ -131,7 +131,7 @@ const CompanyProfile = () => {
           </div>
         </section>
         <section className="py-20">
-          <div className="shadow-[inset_0_0_800px_rgba(255,255,255,0.3)] max-w-[95%] md:max-w-[85%] mx-auto p-26 rounded-4xl">
+          <div className="shadow-[inset_0_0_800px_rgba(255,255,255,0.3)] max-w-[95%] md:max-w-[85%] mx-auto py-26 px-4 md:p-26 rounded-4xl">
 
             {/* Heading */}
             <h2 className="text-3xl md:text-4xl font-bold text-center bg-gradient-to-r from-[#0a77bf] to-[#fd6d2b] bg-clip-text text-transparent mb-12">
@@ -193,72 +193,158 @@ const CompanyProfile = () => {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="flex flex-col sm:flex-row gap-6 bg-[#0f0f0f] border border-gray-700 rounded-3xl p-6 hover:[box-shadow:inset_0_0_50px_rgba(255,255,255,0.15)] transition duration-300">
-                <div className="w-full sm:w-40 max-w-[220px] aspect-[4/5] sm:aspect-square mx-auto sm:mx-0 rounded-3xl bg-gradient-to-br from-[#0a77bf]/40 to-[#fd6d2b]/40 p-[2px] overflow-hidden shrink-0">
-                  <div className="w-full h-full rounded-[22px] overflow-hidden bg-black/20">
-                    <img
-                      src="/images/company-profile/ayaz.jpeg"
-                      alt="Ayaz Ahmad Saith"
-                      className="w-full h-full object-cover object-[center_20%] saturate-110 contrast-105"
-                    />
-                  </div>
+            <div className="space-y-10">
+              <div className="rounded-[30px] border border-white/10 bg-black/20 p-6 md:p-8 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)]">
+                <div className="mb-8 flex flex-col items-center gap-4 md:flex-row md:items-center">
+                  <h3 className='text-center md:text-left text-2xl font-bold bg-gradient-to-r from-[#0a77bf] to-[#fd6d2b] bg-clip-text text-transparent'>Islamabad Office</h3>
+                  <div className="hidden h-px flex-1 bg-gradient-to-r from-[#0a77bf]/60 via-white/10 to-[#fd6d2b]/60 md:block"></div>
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-semibold text-white">Ayaz Ahmad Saith</h3>
-                  <p className="text-[#fd6d2b] font-medium">Managing Director</p>
-                  <div className="mt-4 space-y-2 text-gray-400 text-sm">
-                    <div className="flex items-start gap-2">
-                      <Phone size={16} className="text-[#0a77bf] mt-[2px]" />
-                      <div className="space-y-1">
-                        <p>
-                          <span className="text-gray-500">Phone 1:</span> +92 313 8668015
-                        </p>
-                        <p>
-                          <span className="text-gray-500">Phone 2:</span> +92 345 8668015
-                        </p>
+
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div className="flex h-full flex-col sm:flex-row gap-6 rounded-3xl border border-white/10 bg-[#0f0f0f]/95 p-6 shadow-[0_20px_45px_rgba(0,0,0,0.22)] transition duration-300 hover:-translate-y-1 hover:border-[#fd6d2b]/30 hover:shadow-[0_26px_60px_rgba(0,0,0,0.3)]">
+                    <div className="w-full sm:w-40 max-w-[220px] aspect-[4/5] sm:aspect-square mx-auto sm:mx-0 rounded-3xl bg-gradient-to-br from-[#0a77bf]/40 to-[#fd6d2b]/40 p-[2px] overflow-hidden shrink-0">
+                      <div className="w-full h-full rounded-[22px] overflow-hidden bg-black/20">
+                        <img
+                          src="/images/company-profile/arshad-mahmood.jpg"
+                          alt="Ayaz Ahmad Saith"
+                          className="w-full h-full object-cover object-[center_20%] saturate-110 contrast-105"
+                        />
                       </div>
                     </div>
-                    <p className="flex items-center gap-2">
-                      <Mail size={16} className="text-[#0a77bf]" />
-                      brightpathinternationalstudy@gmail.com
-                    </p>
+                    <div className="flex flex-1 flex-col justify-center">
+                      <h3 className="text-xl font-semibold text-white">Arshad Mahmood</h3>
+                      <p className="text-[#fd6d2b] font-medium">CEO</p>
+                      <div className="mt-4 space-y-2 text-gray-400 text-sm">
+                        <div className="flex items-start gap-2">
+                          <Phone size={16} className="text-[#0a77bf] mt-[2px] shrink-0" />
+                          <div className="space-y-1">
+                            <p>
+                              <span className="text-gray-500"></span> +92 300 8555534
+                            </p>
+                            {/* <p>
+                              <span className="text-gray-500">Phone 2:</span> +92 345 8668015
+                            </p> */}
+                          </div>
+                        </div>
+                        <p className="flex items-start gap-2 break-all">
+                          <Mail size={16} className="text-[#0a77bf] mt-[2px] shrink-0" />
+                          <span>brightpathinternationalstudy@gmail.com</span>
+                        </p>
+                      </div>
+                      <p className="mt-4 text-gray-300 text-sm font-bold">Office: Islamabad</p>
+                    </div>
                   </div>
-                  <p className="mt-4 text-gray-300 text-sm font-bold">Office: Kotmomin</p>
+
+                  <div className="flex h-full flex-col sm:flex-row gap-6 rounded-3xl border border-white/10 bg-[#0f0f0f]/95 p-6 shadow-[0_20px_45px_rgba(0,0,0,0.22)] transition duration-300 hover:-translate-y-1 hover:border-[#fd6d2b]/30 hover:shadow-[0_26px_60px_rgba(0,0,0,0.3)]">
+                    <div className="w-full sm:w-40 max-w-[220px] aspect-[4/5] sm:aspect-square mx-auto sm:mx-0 rounded-3xl bg-gradient-to-br from-[#fd6d2b]/40 to-[#0a77bf]/40 p-[2px] overflow-hidden shrink-0">
+                      <div className="w-full h-full rounded-[22px] overflow-hidden bg-black/20">
+                        <img
+                          src="/images/company-profile/muhammad-usman.jpeg"
+                          alt="Saad Raza"
+                          className="w-full h-full object-cover object-[center_20%] saturate-110 contrast-105"
+                        />
+                      </div>
+                    </div>
+                    <div className="flex flex-1 flex-col justify-center">
+                      <h3 className="text-xl font-semibold text-white">Muhammad Usman</h3>
+                      <p className="text-[#fd6d2b] font-medium">Managing Director</p>
+                      <div className="mt-4 space-y-2 text-gray-400 text-sm">
+                        <div className="flex items-start gap-2">
+                          <Phone size={16} className="text-[#0a77bf] mt-[2px] shrink-0" />
+                          <div className="space-y-1">
+                            <p>
+                              <span className="text-gray-500"></span> +92 332 1441244
+                            </p>
+                            {/* <p>
+                              <span className="text-gray-500">Phone 2:</span> +385 91 603 6177
+                            </p> */}
+                          </div>
+                        </div>
+                        <p className="flex items-start gap-2 break-all">
+                          <Mail size={16} className="text-[#0a77bf] mt-[2px] shrink-0" />
+                          <span>brightpathinternationalstudy@gmail.com</span>
+                        </p>
+                      </div>
+                      <p className="mt-4 text-gray-300 text-sm font-bold">Office: Islamabad</p>
+                    </div>
+                  </div>
                 </div>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-6 bg-[#0f0f0f] border border-gray-700 rounded-3xl p-6 hover:[box-shadow:inset_0_0_50px_rgba(255,255,255,0.15)] transition duration-300">
-                <div className="w-full sm:w-40 max-w-[220px] aspect-[4/5] sm:aspect-square mx-auto sm:mx-0 rounded-3xl bg-gradient-to-br from-[#fd6d2b]/40 to-[#0a77bf]/40 p-[2px] overflow-hidden shrink-0">
-                  <div className="w-full h-full rounded-[22px] overflow-hidden bg-black/20">
-                    <img
-                      src="/images/company-profile/ulfat.jpeg"
-                      alt="Saad Raza"
-                      className="w-full h-full object-cover object-[center_20%] saturate-110 contrast-105"
-                    />
-                  </div>
+              <div className="rounded-[30px] border border-white/10 bg-black/20 p-6 md:p-8 shadow-[inset_0_1px_0_rgba(255,255,255,0.04)]">
+                <div className="mb-8 flex flex-col items-center gap-4 md:flex-row md:items-center">
+                  <h3 className='text-center md:text-left text-2xl font-bold bg-gradient-to-r from-[#0a77bf] to-[#fd6d2b] bg-clip-text text-transparent'>Kotmomin Office</h3>
+                  <div className="hidden h-px flex-1 bg-gradient-to-r from-[#0a77bf]/60 via-white/10 to-[#fd6d2b]/60 md:block"></div>
                 </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-semibold text-white">Ulfat Iqbal</h3>
-                  <p className="text-[#fd6d2b] font-medium">Managing Director</p>
-                  <div className="mt-4 space-y-2 text-gray-400 text-sm">
-                    <div className="flex items-start gap-2">
-                      <Phone size={16} className="text-[#0a77bf] mt-[2px]" />
-                      <div className="space-y-1">
-                        <p>
-                          <span className="text-gray-500">Phone 1:</span> +92 304 6423365
-                        </p>
-                        <p>
-                          <span className="text-gray-500">Phone 2:</span> +385 91 603 6177
-                        </p>
+
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div className="flex h-full flex-col sm:flex-row gap-6 rounded-3xl border border-white/10 bg-[#0f0f0f]/95 p-6 shadow-[0_20px_45px_rgba(0,0,0,0.22)] transition duration-300 hover:-translate-y-1 hover:border-[#fd6d2b]/30 hover:shadow-[0_26px_60px_rgba(0,0,0,0.3)]">
+                    <div className="w-full sm:w-40 max-w-[220px] aspect-[4/5] sm:aspect-square mx-auto sm:mx-0 rounded-3xl bg-gradient-to-br from-[#0a77bf]/40 to-[#fd6d2b]/40 p-[2px] overflow-hidden shrink-0">
+                      <div className="w-full h-full rounded-[22px] overflow-hidden bg-black/20">
+                        <img
+                          src="/images/company-profile/ayaz.jpeg"
+                          alt="Ayaz Ahmad Saith"
+                          className="w-full h-full object-cover object-[center_20%] saturate-110 contrast-105"
+                        />
                       </div>
                     </div>
-                    <p className="flex items-center gap-2">
-                      <Mail size={16} className="text-[#0a77bf]" />
-                      brightpathinternationalstudy@gmail.com
-                    </p>
+                    <div className="flex flex-1 flex-col justify-center">
+                      <h3 className="text-xl font-semibold text-white">Ayaz Ahmad Saith</h3>
+                      <p className="text-[#fd6d2b] font-medium">Managing Director</p>
+                      <div className="mt-4 space-y-2 text-gray-400 text-sm">
+                        <div className="flex items-start gap-2">
+                          <Phone size={16} className="text-[#0a77bf] mt-[2px] shrink-0" />
+                          <div className="space-y-1">
+                            <p>
+                              <span className="text-gray-500">Phone 1:</span> +92 313 8668015
+                            </p>
+                            <p>
+                              <span className="text-gray-500">Phone 2:</span> +92 345 8668015
+                            </p>
+                          </div>
+                        </div>
+                        <p className="flex items-start gap-2 break-all">
+                          <Mail size={16} className="text-[#0a77bf] mt-[2px] shrink-0" />
+                          <span>brightpathinternationalstudy@gmail.com</span>
+                        </p>
+                      </div>
+                      <p className="mt-4 text-gray-300 text-sm font-bold">Office: Kotmomin</p>
+                    </div>
                   </div>
-                  <p className="mt-4 text-gray-300 text-sm font-bold">Office: Croatia</p>
+
+                  <div className="flex h-full flex-col sm:flex-row gap-6 rounded-3xl border border-white/10 bg-[#0f0f0f]/95 p-6 shadow-[0_20px_45px_rgba(0,0,0,0.22)] transition duration-300 hover:-translate-y-1 hover:border-[#fd6d2b]/30 hover:shadow-[0_26px_60px_rgba(0,0,0,0.3)]">
+                    <div className="w-full sm:w-40 max-w-[220px] aspect-[4/5] sm:aspect-square mx-auto sm:mx-0 rounded-3xl bg-gradient-to-br from-[#fd6d2b]/40 to-[#0a77bf]/40 p-[2px] overflow-hidden shrink-0">
+                      <div className="w-full h-full rounded-[22px] overflow-hidden bg-black/20">
+                        <img
+                          src="/images/company-profile/ulfat.jpeg"
+                          alt="Saad Raza"
+                          className="w-full h-full object-cover object-[center_20%] saturate-110 contrast-105"
+                        />
+                      </div>
+                    </div>
+                    <div className="flex flex-1 flex-col justify-center">
+                      <h3 className="text-xl font-semibold text-white">Ulfat Iqbal</h3>
+                      <p className="text-[#fd6d2b] font-medium">Managing Director</p>
+                      <div className="mt-4 space-y-2 text-gray-400 text-sm">
+                        <div className="flex items-start gap-2">
+                          <Phone size={16} className="text-[#0a77bf] mt-[2px] shrink-0" />
+                          <div className="space-y-1">
+                            <p>
+                              <span className="text-gray-500">Phone 1:</span> +92 304 6423365
+                            </p>
+                            <p>
+                              <span className="text-gray-500">Phone 2:</span> +385 91 603 6177
+                            </p>
+                          </div>
+                        </div>
+                        <p className="flex items-start gap-2 break-all">
+                          <Mail size={16} className="text-[#0a77bf] mt-[2px] shrink-0" />
+                          <span>brightpathinternationalstudy@gmail.com</span>
+                        </p>
+                      </div>
+                      <p className="mt-4 text-gray-300 text-sm font-bold">Office: Croatia</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
